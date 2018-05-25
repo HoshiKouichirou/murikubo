@@ -12,6 +12,7 @@ body{
   }
 }
 .muri{
+  font-family: myfont;
   opacity: 0;
   position: absolute;
   color: #fafafa;
@@ -26,4 +27,8 @@ body{
 .box{
   width: 95vw;
   height: 95vh;
+}
+@@font-face {
+  font-family: myfont;
+  src: url(./RobotoMono-Thin.ttf);
 }
