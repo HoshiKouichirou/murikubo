@@ -1,0 +1,29 @@
+body{
+  text-align: center;
+  margin: 0;
+  background-color: #121212;
+}
+@keyframes pulse {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+.muri{
+  opacity: 0;
+  position: absolute;
+  color: #fafafa;
+  font-size: 30px;
+  animation-name: pulse;/* 実行する名前 */
+  animation-duration: 2s;/* 0.3秒かけて実行 */
+  animation-iteration-count:infinite;/* 何回実行するか。infiniteで無限 */
+  animation-timing-function:ease-in-out;/* イーズインアウト */
+  animation-direction: alternate;/* alternateにするとアニメーションが反復 */
+  /* animation-delay: 0s; /* 実行までの待ち時間 */
+}
+.box{
+  width: 95vw;
+  height: 95vh;
+}
