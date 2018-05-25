@@ -1,6 +1,5 @@
 $(function() {
   for (var i = 0; i <= 15; i++) {
-    console.log("hi")
     $(".box").append("<div class='muri " + i + "'>むりくぼぉぉ。。。</div>")
     Random($("." + i + ""))
   }
@@ -10,6 +9,5 @@ $(function() {
     var y = Math.round( Math.random()*100 );
     test.css("animation-delay", "" + start + "s");
     test.css("transform", "translate(" + x + "vw," + y + "vh)");
-    console.log()
   }
 }())
