@@ -11,6 +11,10 @@ body{
     opacity: 1;
   }
 }
+.my{
+  margin-left: 80vw;
+  margin-top: -5vw;
+}
 .muri{
   font-family: myfont;
   opacity: 0;
